@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.separador{
+    margin-top: 10px;
+}
+
+.input-label{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 7px;
+    margin-top: 5px;
+    outline: none;
+}
+
+button{
+    width: 350px;
+    background: #CDD2FD;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+}

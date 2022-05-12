@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <form id="form">
+            <h2>Cadastrar</h2>
+            <div class="separador">
+                <div class="input-label">Username</div>
+                <input type="text" id="username">
+                <div class="error" id="usernameerror"></div>
+            </div>
+            <div class="separador">
+                <div class="input-label">Email</div>
+                <input type="text" id="email" > 
+                <div class="error" id="emailerror"></div>
+            </div>
+            <div class="separador">
+                <div class="input-label">Senha</div>
+                <input type="password" id="password" >
+                <div class="error" id="passworderror"></div>
+            </div>
+            <div class="separador">
+                <div class="input-label">Confirmação de senha</div>
+                <input type="password" id="cpassword">
+                <div class="error" id="cpassworderror"></div>
+            </div>
+            <button id="button" disabled="true" type="submit">
+                Cadastrar
+            </button>
+        </form>    
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
